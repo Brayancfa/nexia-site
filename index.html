@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NEXÏA — Musique IA</title>
+<style>
+:root{--bg:#07070f;--fg:#eaeaf5;--muted:#8d8da8;--c1:#00f0ff;--c2:#ff2bd6;--card:#12121f;--line:#26263d;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#f4f4fb;--fg:#12121f;--muted:#5d5d78;--c1:#0088a0;--c2:#c2009f;--card:#fff;--line:#d8d8ea}}
+:root[data-theme="dark"]{--bg:#07070f;--fg:#eaeaf5;--muted:#8d8da8;--c1:#00f0ff;--c2:#ff2bd6;--card:#12121f;--line:#26263d}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+.hero{padding:72px 0 56px;text-align:center}
+.logo{font-size:clamp(3rem,16vw,6rem);font-weight:800;letter-spacing:.08em;margin:0;background:linear-gradient(90deg,var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{color:var(--muted);font-size:1.1rem;margin:12px 0 28px}
+.btn{display:inline-block;padding:14px 28px;border-radius:999px;font-weight:700;text-decoration:none;color:#07070f;background:linear-gradient(90deg,var(--c1),var(--c2))}
+section{padding:36px 0;border-top:1px solid var(--line)}
+h2{font-size:1.4rem;margin:0 0 16px}
+.grid{display:grid;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h3{margin:0 0 4px;font-size:1.05rem}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.links a{padding:10px 18px;border:1px solid var(--c1);border-radius:999px;color:var(--fg);text-decoration:none}
+footer{padding:32px 0;text-align:center;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header class="hero wrap">
+  <h1 class="logo">NEXÏA</h1>
+  <p class="tag">La voix du futur. Musique créée par l’IA.</p>
+  <a class="btn" href="#ecouter">Écouter maintenant</a>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>Qui est NEXÏA ?</h2>
+    <p>NEXÏA est une artiste née de l’intelligence artificielle. Des sons cyberpunk, des ambiances néon et des textes qui parlent d’un monde où l’humain et la machine créent ensemble.</p>
+  </section>
+
+  <section id="ecouter">
+    <h2>Dernières sorties</h2>
+    <div class="grid">
+      <div class="card"><h3>Titre 1</h3><p>Single · Bientôt disponible</p></div>
+      <div class="card"><h3>Titre 2</h3><p>Single · Bientôt disponible</p></div>
+      <div class="card"><h3>Titre 3</h3><p>Single · Bientôt disponible</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Suis NEXÏA</h2>
+    <div class="links">
+      <a href="#">TikTok</a>
+      <a href="#">Spotify</a>
+      <a href="#">YouTube</a>
+      <a href="#">Instagram</a>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 NEXÏA · Tous droits réservés</footer>
+</body>
+</html>
